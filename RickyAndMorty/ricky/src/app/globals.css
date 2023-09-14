@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: auto;
+    max-width: 1120px;
+    background: #384358;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: rgba(0, 0, 0, 0.5) 1px solid ;
+    width: 100%;
+}
+.logo h2{
+    cursor: pointer;
+    position: relative;
+    color: black;
+}
+.logo h2::before{
+    content: "Home Page";
+    position: absolute;
+    background: darkgray;
+    padding: 2px;
+    color: white;
+    height: 15px;
+    width: 100px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    right: 0;
+    top: -1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s all;
+}
+.logo h2:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.links a{
+    color: #F39F5A;
+    transition: all .5s;
+    position: relative;
+    overflow: hidden;
+}
+.links a:hover{
+    color: #E8BCB9;
+}
+.links a::after{
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    left: -100%;
+    transition: .5s all;
+    width: 100%;
+    height: 2px;
+    background: #F39F5A;
+    transform-origin: left;
+}
+.links a:hover::after{
+    left: 0;
+    right: 100%;
+}
+
+/* HOME */
+
+.not-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.left-not{
+    flex: 1;
+    border-right: 1px solid darkgray;
+}
+.left-not img{
+    width: 400px;
+}
+.right-not{
+    flex: 1;
+    margin-left: 1rem;
+}
+.container-bolum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bolum-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5%;
+}
+.bolum-ul li{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    transition: all 1s;
+}
+.bolum-ul li:hover{
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px);
+}
+.bolum-ul li a{
+    color: black;
+}
+.episode-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.episode-details span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.baslik-bolum{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.spinner{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    border-top: transparent;
+    border-bottom: transparent;
+    animation: rotate linear infinite 1s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+    padding: 10px;
+}
+.bolum-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    border-radius: 4px;
+    gap: 10px;
+    height: 100%;
+}
+.card a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: all 1s;
+    color: black;
+
+}
+.card a:hover{
+    color: #007bff;
+}
+.karakter li a{
+    font-size: 13px;
+}
+.karakter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.card-start{
+    display: flex;
+    gap: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+}

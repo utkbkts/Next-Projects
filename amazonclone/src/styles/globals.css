@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.height{
+    height: 150px;
+    grid-column: 1/span 5;
+}
+.cartproduct{
+    height: 200px;
+}
