@@ -1,0 +1,239 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "date": {
+        "day": "15",
+        "month": "feb"
+      },
+      "location": {
+        "city": "Los Angeles",
+        "country": "USA",
+        "address": "LA Convertion Center"
+      },
+      "priceRange": "60-250$"
+    },
+    {
+      "id": 2,
+      "date": {
+        "day": "25",
+        "month": "Jul"
+      },
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "address": "Sambadrome"
+      },
+      "priceRange": "60-250$"
+    },
+    {
+      "id": 3,
+      "date": {
+        "day": "10",
+        "month": "may"
+      },
+      "location": {
+        "city": "Paris",
+        "country": "France",
+        "address": "Eiffel Tower Park"
+      },
+      "priceRange": "60-250$"
+    },
+    {
+      "id": 4,
+      "date": {
+        "day": "30",
+        "month": "Mar"
+      },
+      "location": {
+        "city": "Athens",
+        "country": "Greece",
+        "address": "Acropolis"
+      },
+      "priceRange": "40-250$"
+    },
+    {
+      "id": 5,
+      "date": {
+        "day": "31",
+        "month": "Jan"
+      },
+      "location": {
+        "city": "Italy",
+        "country": "Florance",
+        "address": "Florance/24 No."
+      },
+      "priceRange": "30-250$"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "img": "/assets/albums/cover/cover-1.png",
+      "name": "album 1",
+      "tracks": [
+        {
+          "name": "Serenade in D major",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Midnight Lullaby",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Whispers of the Wind",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Sunlight Serenity",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Misty moonlight Melody",
+          "src": "assets/freedom.mp3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "img": "/assets/albums/cover/cover-2.png",
+      "name": "album 2",
+      "tracks": [
+        {
+          "name": "Serenade in D major",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Midnight Lullaby",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Whispers of the Wind",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Sunlight Serenity",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Misty moonlight Melody",
+          "src": "assets/freedom.mp3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "img": "/assets/albums/cover/cover-3.png",
+      "name": "album 3",
+      "tracks": [
+        {
+          "name": "Serenade in D major",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Midnight Lullaby",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Whispers of the Wind",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Sunlight Serenity",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Misty moonlight Melody",
+          "src": "assets/freedom.mp3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "img": "/assets/albums/cover/cover-4.png",
+      "name": "album 4",
+      "tracks": [
+        {
+          "name": "Serenade in D major",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Midnight Lullaby",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Whispers of the Wind",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Sunlight Serenity",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Misty moonlight Melody",
+          "src": "assets/freedom.mp3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "img": "/assets/albums/cover/cover-5.png",
+      "name": "album 5",
+      "tracks": [
+        {
+          "name": "Serenade in D major",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Midnight Lullaby",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Whispers of the Wind",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Sunlight Serenity",
+          "src": "assets/freedom.mp3"
+        },
+        {
+          "name": "Misty moonlight Melody",
+          "src": "assets/freedom.mp3"
+        }
+      ]
+    }
+  ],
+  "posts":[
+    {
+        "id":1,
+        "date":"2023-09-21",
+        "title":"Rock Concert at Central Park",
+        "description":"join us for an electrifin night of classic rock hits at central partk the lineup işnluıded triibute band for şegamdry rock icons"
+    },
+    {
+        "id":2,
+        "date":"2023-09-21",
+        "title":"Jazz",
+        "description":"join us for an electrifin night of classic rock hits at central partk the lineup işnluıded triibute band for şegamdry rock icons"
+    },
+    {
+        "id":3,
+        "date":"2023-09-24",
+        "title":"EDM extra",
+        "description":"join us for an electrifin night of classic rock hits at central partk the lineup işnluıded triibute band for şegamdry rock icons"
+    },
+    {
+        "id":4,
+        "date":"2023-09-27",
+        "title":"Accoustic coffe shop",
+        "description":"join us for an electrifin night of classic rock hits at central partk the lineup işnluıded triibute band for şegamdry rock icons"
+    },
+    {
+        "id":5,
+        "date":"2023-09-21",
+        "title":"Classicsal Sympohny showcase",
+        "description":"join us for an electrifin night of classic rock hits at central partk the lineup işnluıded triibute band for şegamdry rock icons"
+    }
+  ]
+
+}

@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary font-Montser text-white;
+}
+.pretitle {
+  @apply font-Alex text-[42px] text-accent leading-none;
+}
+.h2 {
+  @apply text-[32px] xl:text-[38px] font-semibold  leading-tight;
+}
+.btn {
+  @apply w-full rounded-full cursor-pointer transition-all justify-center items-center flex font-medium;
+}
+.btn-sm {
+  @apply w-[146px] h-[50px];
+}
+.btn-lg {
+  @apply w-[160px] h-[54px];
+}
+
+.btn-accent {
+  @apply bg-accent text-white hover:bg-accent-hover;
+}
+.btn-white {
+  @apply bg-white text-primary hover:bg-white/80;
+}
+.section {
+  @apply py-12 xl:py-24;
+}
+.rap-progress {
+  @apply bg-[#6519c8];
+}
+.rap-pin {
+  @apply bg-white;
+}
+.rap-container .rap-slider .rap-progress .rap-pin {
+  @apply !w-[14px] !h-[14px] !bg-white;
+}
+.rap-container .rap-slider .rap-progress .rap-pin:hover {
+  @apply scale-[1.2] transition-all duration-300;
+}
+.rap-container {
+  @apply !p-8;
+}
+.rap-container .rap-pp-button svg {
+  @apply w-[14px];
+}
+.rap-container .rap-volume .rap-volume-btn svg {
+  @apply w-[22px];
+}
+.rap-container .rap-pp-button svg path,
+.rap-container .rap-volume .rap-volume-btn svg path {
+  @apply fill-accent;
+}
+.rap-volume-btn.rap-volume-open svg path{
+  @apply fill-white
+}
+.rap-volume-controls{
+  @apply !bg-primary/80
+}
+.navbar-position{
+  transform: translateY(0);
+  transition: all ease 0.5s;
+}
+.navbar-position.top {
+  background: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+
+}
+.navbar-position.hide {
+  transform: translateY(-120px);
+}
+.navbar-position.show {
+  background: #030315;
+  position: fixed;
+  top: 0;
+
+}
+.navbar-position.show img{
+  color: black !important;
+}
+.active{
+  @apply border-b-2 border-accent
+}
+.disable-scroll{
+  overflow: hidden;
+}
+.audioplayer .rap-container{
+  @apply !w-full !max-w-full
+}
+.audioplayer .rap-slider{
+  @apply !bg-accent
+}
+.section-email{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+@media(max-width:968px){
+  .section-email{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .section-email h3{
+    font-size: 20px;
+  }
+  .section-email input{
+    height: 40px;
+  }
+  .section-email button{
+    height: 20px;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+@media(max-width:578px){
+  .section-email{
+    top: 15%;
+  }
+}
+@media(max-width:468px){
+  .section-email .emailinput{
+      flex-direction: column;
+  }
+  .section-email .emailinput button{
+    position: static;
+    margin-top: 10px;
+  }
+  .section-email h3{
+    font-size: 11px;
+  }
+  .section-email input{
+    height: 20px;
+  }
+}
